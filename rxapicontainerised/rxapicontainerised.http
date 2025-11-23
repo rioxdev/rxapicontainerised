@@ -1,0 +1,6 @@
+@rxapicontainerised_HostAddress = http://localhost:5182
+
+GET {{rxapicontainerised_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
