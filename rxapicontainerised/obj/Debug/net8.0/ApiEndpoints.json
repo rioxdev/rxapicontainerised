@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "rxapicontainerised.Controllers.DemoController",
+    "Method": "Get",
+    "RelativePath": "api/Demo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

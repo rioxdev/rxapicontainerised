@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("rxapicontainerised")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a51551bf1f33da262ea3b2b9bcf421705d008b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("rxapicontainerised")]
 [assembly: System.Reflection.AssemblyTitleAttribute("rxapicontainerised")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
