@@ -8,6 +8,10 @@ trigger:
 resources:
 - repo: self
 
+pool:
+  name: Default
+  vmImage: ubuntu-latest
+
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'd05b0fac-9ae1-4d6d-94fd-d919ef40c23f'
@@ -15,10 +19,6 @@ variables:
   containerRegistry: 'rxregistry.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/rxapicontainerised/Dockerfile'
   tag: '$(Build.BuildId)'
-
-pool:
-  name: Default
-  vmImage: windows-latest
 
 stages:
 - stage: Build
