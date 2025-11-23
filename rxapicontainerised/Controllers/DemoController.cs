@@ -10,7 +10,7 @@ namespace rxapicontainerised.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok($"Hello from DemoController {DateTime.Now}");
+            return Ok($"Hello from Perax {DateTime.Now}");
         }
     }
 }
