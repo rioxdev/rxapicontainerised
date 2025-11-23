@@ -9,7 +9,6 @@ resources:
 - repo: self
 
 pool:
-  name: Default
   vmImage: ubuntu-latest
 
 variables:
