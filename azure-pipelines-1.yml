@@ -16,8 +16,9 @@ variables:
   dockerfilePath: '$(Build.SourcesDirectory)/rxapicontainerised/Dockerfile'
   tag: '$(Build.BuildId)'
 
-  # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+pool:
+  name: Default
+  vmImage: windows-latest
 
 stages:
 - stage: Build
