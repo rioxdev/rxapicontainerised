@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("rxapi.tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ae7c9436824238930f88c3b50ce6a5f5210c427")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e483f83e8a9f49a6c83e471b8d5a8b02a52b0aa4")]
 [assembly: System.Reflection.AssemblyProductAttribute("rxapi.tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("rxapi.tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

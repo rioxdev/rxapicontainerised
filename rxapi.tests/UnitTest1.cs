@@ -7,5 +7,11 @@ namespace rxapi.tests
         {
             Assert.True(true);
         }
+
+        [Fact]
+        public void Test2()
+        {
+            Assert.Equal(4, 2 + 2);
+        }
     }
 }
