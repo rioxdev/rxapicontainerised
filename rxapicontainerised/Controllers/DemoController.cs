@@ -10,7 +10,7 @@ namespace rxapicontainerised.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok($"Hello from Ralol {DateTime.Now}");
+            return Ok($"Deploy a containerized api to Azure with Azure devops {DateTime.Now.ToUniversalTime()} \n loading to march...");
         }
     }
 }
